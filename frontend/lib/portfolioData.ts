@@ -1,0 +1,374 @@
+export interface PortfolioItem {
+  file: string;
+  service_slug: string;
+  additional_slugs?: string[];
+  caption: string;
+}
+
+export const PORTFOLIO_ITEMS: PortfolioItem[] = [
+  {
+    file: '2026-02-28 (1).jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Living Room Interior Painting',
+  },
+  {
+    file: '2026-02-28 (2).jpg',
+    service_slug: 'exterior-painting',
+    additional_slugs: ['residential-painting'],
+    caption: 'Multi-Storey Apartment Exterior Repainting',
+  },
+  {
+    file: '2026-02-28.jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Modern Apartment Interior Painting',
+  },
+  {
+    file: '2026-03-07 (1).jpg',
+    service_slug: 'home-painting',
+    additional_slugs: ['interior-painting'],
+    caption: 'Full Home Interior Painting & Lighting',
+  },
+  {
+    file: '2026-03-07 (2).jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Dining & Living Area Painting',
+  },
+  {
+    file: '2026-03-07 (3).jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Bedroom Interior Wall Painting',
+  },
+  {
+    file: '2026-03-07 (4).jpg',
+    service_slug: 'color-consultation',
+    additional_slugs: ['interior-painting'],
+    caption: 'Dual Tone Pastel Bedroom Color Scheme',
+  },
+  {
+    file: '2026-03-07 (5).jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Modular Kitchen Interior Painting',
+  },
+  {
+    file: '2026-03-07 (6).jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Master Bedroom Interior Painting',
+  },
+  {
+    file: '2026-03-07 (7).jpg',
+    service_slug: 'interior-painting',
+    caption: 'Kitchen & Utility Area Paint Finish',
+  },
+  {
+    file: '2026-03-07 (8).jpg',
+    service_slug: 'wall-texture-painting',
+    additional_slugs: ['interior-painting'],
+    caption: 'POP Ceiling Design with Cove Lighting',
+  },
+  {
+    file: '2026-03-07 (9).jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Foyer & Entryway Interior Painting',
+  },
+  {
+    file: '2026-03-07.jpg',
+    service_slug: 'decorative-painting',
+    additional_slugs: ['wall-texture-painting'],
+    caption: 'Decorative Sconce & Wall Molding Design',
+  },
+  {
+    file: '2026-03-15.png',
+    service_slug: 'commercial-painting',
+    caption: 'VR Painting Solutions Retail Storefront',
+  },
+  {
+    file: '2026-05-29 (1).jpg',
+    service_slug: 'commercial-painting',
+    additional_slugs: ['exterior-painting'],
+    caption: 'Commercial Institute Building Exterior',
+  },
+  {
+    file: '2026-05-29 (2).jpg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['decorative-painting'],
+    caption: 'Hallway Linear Lighting & Painting',
+  },
+  {
+    file: '2026-05-29.jpg',
+    service_slug: 'color-consultation',
+    additional_slugs: ['decorative-painting'],
+    caption: 'Curved Mustard Yellow Accent Wall',
+  },
+  {
+    file: '2026-06-16.jpg',
+    service_slug: 'home-painting',
+    additional_slugs: ['interior-painting'],
+    caption: 'Complete Flat Repainting in Pune',
+  },
+  {
+    file: 'IMG-20260613-WA0005 (1).jpg',
+    service_slug: 'residential-painting',
+    additional_slugs: ['interior-painting'],
+    caption: 'Duplex Bungalow Residential Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.20.45 PM - Copy.jpeg',
+    service_slug: 'commercial-painting',
+    caption: 'VR Painting Solutions Office & Team',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.53.46 PM - Copy.jpeg',
+    service_slug: 'wall-texture-painting',
+    additional_slugs: ['interior-painting'],
+    caption: 'Designer Bedroom Wall Texture',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.53.46 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    additional_slugs: ['interior-painting'],
+    caption: 'Textured Accent Wall Bedroom',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.54.33 PM.jpeg',
+    service_slug: 'decorative-painting',
+    additional_slugs: ['interior-painting'],
+    caption: 'Handcrafted Wall Art & Mural',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.54.34 PM - Copy.jpeg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Bedroom Interior Wall Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.54.37 PM (1).jpeg',
+    service_slug: 'wall-texture-painting',
+    additional_slugs: ['decorative-painting'],
+    caption: 'Custom POP Wall Texture Work',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.54.38 PM.jpeg',
+    service_slug: 'interior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Corridor & Living Room Paint Finish',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.54.39 PM.jpeg',
+    service_slug: 'interior-painting',
+    caption: 'Modular Kitchen Interior Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.54.42 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    caption: 'Living Room Textured TV Unit Wall',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.55.16 PM.jpeg',
+    service_slug: 'exterior-painting',
+    additional_slugs: ['residential-painting'],
+    caption: 'Independent Villa Exterior Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.55.17 PM.jpeg',
+    service_slug: 'exterior-painting',
+    additional_slugs: ['residential-painting'],
+    caption: 'Compound Wall & Exterior Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.55.18 PM.jpeg',
+    service_slug: 'exterior-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'Residential House Exterior Finish',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.55.19 PM.jpeg',
+    service_slug: 'exterior-painting',
+    additional_slugs: ['commercial-painting'],
+    caption: 'Commercial & Residential Building Exterior',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.28 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    caption: 'Geometric Pattern Texture Wall',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.30 PM.jpeg',
+    service_slug: 'color-consultation',
+    additional_slugs: ['wall-texture-painting'],
+    caption: 'Geometric Color Block Triangles Accent Wall',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.31 PM - Copy.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Pooja Room Decorative Accent Wall',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.31 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Temple Yellow Wall Decorative Finish',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.32 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    caption: 'Royal Blue Spatula Wall Texture',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.33 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    caption: 'Royale Play Metallic Wall Texture',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.34 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Floral Branch Stencil Wall Art',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.36 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Gold Feather Stencil Wall Art',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.56.37 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Decorative Green Foliage Stencil Art',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.18 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    additional_slugs: ['decorative-painting'],
+    caption: 'Modern Geometric POP False Ceiling',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.19 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Circular POP Chandelier Ceiling Art',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.20 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Heart Silhouette Decorative Ceiling',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.21 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Circular Medallion Ceiling Art',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.22 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    additional_slugs: ['decorative-painting'],
+    caption: 'Curved Arch POP False Ceiling',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.23 PM.jpeg',
+    service_slug: 'home-painting',
+    additional_slugs: ['residential-painting', 'interior-painting'],
+    caption: 'Master Suite Full Home Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.25 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    caption: 'Diamond POP Ceiling & Texture Wall',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.57.26 PM.jpeg',
+    service_slug: 'wall-texture-painting',
+    caption: 'False Ceiling with Spotlights & Panel',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.58.47 PM.jpeg',
+    service_slug: 'decorative-painting',
+    additional_slugs: ['wall-texture-painting'],
+    caption: 'Classical Gold Wall Molding Panels',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.59.18 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Dining Area Wainscoting & Molding',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.59.20 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Parisian Wall Molding & Trim Work',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.59.21 PM (1).jpeg',
+    service_slug: 'residential-painting',
+    additional_slugs: ['decorative-painting'],
+    caption: 'Bungalow Staircase & Wall Finish',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-24 at 11.59.25 PM.jpeg',
+    service_slug: 'decorative-painting',
+    caption: 'Coffered Ceiling & Picture Frame Molding',
+  },
+  {
+    file: 'our-team.jpg',
+    service_slug: 'commercial-painting',
+    additional_slugs: ['home-painting'],
+    caption: 'VR Painting Solutions Professional Team',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.01.29 AM.jpeg',
+    service_slug: 'waterproofing',
+    caption: 'Waterproofing Chemical Coating & Surface Prep',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.01.51 AM.jpeg',
+    service_slug: 'roof-coating',
+    additional_slugs: ['waterproofing'],
+    caption: 'Terrace White Heat-Reflective Roof Coating',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.01.52 AM.jpeg',
+    service_slug: 'bathroom-waterproofing',
+    additional_slugs: ['waterproofing'],
+    caption: 'Bathroom Tile Joint Waterproofing & Regrouting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.01.53 AM.jpeg',
+    service_slug: 'bathroom-waterproofing',
+    additional_slugs: ['waterproofing'],
+    caption: 'Bathroom Floor Waterproof Membrane Application',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.02.38 AM.jpeg',
+    service_slug: 'commercial-painting',
+    caption: 'Commercial Facility Pipeline & Wall Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.02.39 AM.jpeg',
+    service_slug: 'commercial-painting',
+    caption: 'Commercial Industrial Perimeter Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.02.40 AM.jpeg',
+    service_slug: 'commercial-painting',
+    caption: 'Industrial Warehouse Exterior Painting',
+  },
+  {
+    file: 'WhatsApp Image 2026-09-25 at 12.02.41 AM.jpeg',
+    service_slug: 'door-painting',
+    additional_slugs: ['commercial-painting'],
+    caption: 'Metal Structure, Stairs & Pipe Enamel Coating',
+  },
+  {
+    file: 'commercial-building.png',
+    service_slug: 'exterior-painting',
+    additional_slugs: ['commercial-painting'],
+    caption: 'Multi-Storey Building Exterior Painting',
+  },
+  {
+    file: 'unnamed.webp',
+    service_slug: 'wall-texture-painting',
+    additional_slugs: ['decorative-painting'],
+    caption: 'Lattice Wallpaper Texture Pattern',
+  },
+];
