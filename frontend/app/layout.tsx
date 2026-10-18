@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   keywords: ['painting contractor Pune', 'interior painting Hadapsar', 'exterior painting Pune', 'waterproofing Pune', 'VR Painting Solutions'],
   icons: {
     icon: [
-      { url: '/images/vr-logo-official.png' },
-      { url: '/icon.png' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png' },
     ],
-    apple: '/images/vr-logo-official.png',
-    shortcut: '/images/vr-logo-official.png',
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png',
   },
   openGraph: {
     type: 'website',
