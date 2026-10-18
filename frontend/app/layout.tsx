@@ -11,10 +11,40 @@ export const metadata: Metadata = {
   },
   description: `${BUSINESS.name} — Pune's trusted painting contractor. Interior, exterior, waterproofing, texture & POP, commercial painting, and color consultation. ${BUSINESS.rating}★ Google rated. Get a free quote today.`,
   keywords: ['painting contractor Pune', 'interior painting Hadapsar', 'exterior painting Pune', 'waterproofing Pune', 'VR Painting Solutions'],
+  icons: {
+    icon: [
+      { url: '/images/vr-logo-official.png' },
+      { url: '/icon.png' },
+    ],
+    apple: '/images/vr-logo-official.png',
+    shortcut: '/images/vr-logo-official.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
     siteName: BUSINESS.name,
+    title: `${BUSINESS.name} — Premium Painting Services in Pune`,
+    description: `${BUSINESS.name} — Pune's trusted painting contractor. 5.0★ Google rated. Interior, exterior, waterproofing, texture & POP.`,
+    images: [
+      {
+        url: '/images/hero-banner.png',
+        width: 1200,
+        height: 630,
+        alt: `${BUSINESS.name} Hero Banner`,
+      },
+      {
+        url: '/images/vr-logo-official.png',
+        width: 500,
+        height: 500,
+        alt: `${BUSINESS.name} Logo`,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${BUSINESS.name} — Premium Painting Services in Pune`,
+    description: `Pune's trusted painting contractor. 5.0★ Google rated. Get a free quote today.`,
+    images: ['/images/hero-banner.png'],
   },
 };
 
