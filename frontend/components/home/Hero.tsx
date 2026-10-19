@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Phone, ArrowRight } from 'lucide-react';
 export default function Hero() {
   return (
-    <section className="relative w-full overflow-hidden flex flex-col pt-16 bg-[#f7f5f2]">
+    <section className="relative w-full overflow-hidden flex flex-col pt-0 bg-[#f7f5f2]">
       <div className="w-full max-w-[1920px] mx-auto flex justify-center">
         <picture className="w-full block">
           <source srcSet="/images/hero-banner.webp" type="image/webp" />
