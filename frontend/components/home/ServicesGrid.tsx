@@ -10,7 +10,7 @@ const iconMap: Record<string, React.ElementType> = {
 const imageMap: Record<string, string> = {
   'interior-painting': '/images/interior-painting.png',
   'exterior-painting': '/images/exterior-painting.png',
-  'waterproofing': '/portfolio/WhatsApp%20Image%202026-09-25%20at%2012.01.29%20AM.jpeg',
+  'waterproofing': '/images/waterproofing-service.png',
   'wall-texture-painting': '/portfolio/WhatsApp%20Image%202026-09-24%20at%2011.56.28%20PM.jpeg',
   'texture-pop': '/portfolio/WhatsApp%20Image%202026-09-24%20at%2011.57.19%20PM.jpeg',
   'commercial-painting': '/portfolio/commercial-building.png',

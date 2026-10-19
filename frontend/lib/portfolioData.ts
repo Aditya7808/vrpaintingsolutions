@@ -316,6 +316,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     caption: 'VR Painting Solutions Professional Team',
   },
   {
+    file: 'vr-waterproofing-injection.png',
+    service_slug: 'waterproofing',
+    additional_slugs: ['bathroom-waterproofing'],
+    caption: 'VR Chemical Grout Tile Joint Pressure Injection Waterproofing',
+  },
+  {
     file: 'WhatsApp Image 2026-09-25 at 12.01.29 AM.jpeg',
     service_slug: 'waterproofing',
     caption: 'Waterproofing Chemical Coating & Surface Prep',
