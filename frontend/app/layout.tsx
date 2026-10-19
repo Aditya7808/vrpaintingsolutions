@@ -5,6 +5,7 @@ import Footer from "@/components/layout/Footer";
 import { BUSINESS } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://vrpaintingsolutions.vercel.app'),
   title: {
     default: `${BUSINESS.name} — Premium Painting Services in Pune`,
     template: `%s | ${BUSINESS.name}`,
