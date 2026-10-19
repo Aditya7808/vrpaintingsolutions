@@ -11,10 +11,11 @@ export default function Hero() {
           <img 
             src="/images/hero-banner-new.png" 
             alt="VR Painting Solutions — रंग जो बदल दें आपकी दुनिया!" 
-            width={1920}
-            height={810}
+            width={2560}
+            height={1080}
+            fetchPriority="high"
             className="w-full h-auto block select-none"
-            style={{ width: '100%', height: 'auto', display: 'block' }}
+            style={{ width: '100%', height: 'auto', display: 'block', imageRendering: '-webkit-optimize-contrast' }}
           />
         </picture>
       </div>
